@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genre Popularity Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Genre Popularity </h1>
+    <div id="controls">
+        <button id="sortVotes">Sort by Votes</button>
+        <button id="sortScores">Sort by Scores</button>
+        <button id="reset">Reset</button>
+      </div>
+      <select id="filter">
+        <option value="all">All Genres</option>
+        <option value="Drama">Drama</option>
+        <option value="Action">Action</option>
+      </select>
+    </div>
+
+    
+    <svg id="chart" width="800" height="500"></svg>
+    <script src="script.js"></script>
+    <div id="documentation"></div>
+        <p>Link to design and process <a href="https://docs.google.com/document/d/1grLTRWQlzO76LkXKgXW9WmU6bSwqpfEOXzGdWVYrxQM/edit?tab=t.0" target="_blank">Documentation</a>.</p>
+    </div>
+    <div id="Youtube"></div>
+        <p>Link to Youtube video <a href="https://www.youtube.com/watch?v=Yzm_-HVlgfo" target="_blank">Youtube</a>.</p>
+    </div>
+</body>
+</html>
